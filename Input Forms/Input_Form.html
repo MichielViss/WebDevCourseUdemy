@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1>Login</h1>
+	<!-- action - where the form sends data to -->
+	<!-- method - what HTTP method (get/post) -->
+<!-- 	<form action="http://google.com" method="GET">
+
+		<label>
+			Username 	
+			<input name ="username" type ="text" placeholder="username">
+		</label>
+		<label>
+			Password
+			<input name= "password" type="password" placeholder="password">
+		</label>
+		<input type="submit">
+
+	</form> -->
+
+	<form action="http://google.com" method="GET">
+
+		<label for "username"> Username: </label>	
+			<input id ="username" type ="text" placeholder="username">
+		<!-- The pattern attribute for the input type specifies the character range of the input i.e. it must be between 5 d 10 characters long -->
+		<label for "password">Password:</label>
+			<input id= "password" type="password" pattern = ".{5,10}" placeholder="password">
+		
+		<input type="submit">
+
+	</form>
+
+</body>
+</html>

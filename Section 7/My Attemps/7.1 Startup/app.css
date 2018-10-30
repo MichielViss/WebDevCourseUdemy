@@ -1,0 +1,36 @@
+body{
+	background: url(https://images.unsplash.com/photo-1539806943008-329897720dd3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9&s=5919297cb3257de03e12ca3bf10e6db0);
+/*The background size effects should be labbelled after the img src has been defined*/
+	background-size: cover;
+	background-position: center;
+	font-family: 'Cinzel', serif;
+}
+
+#Content{
+	padding-top: 25%;
+	text-align: center;
+	text-shadow:0px 4px 5px grey,
+				0px 8px 13px orange,
+				0px 13px20px blue;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+	color: white;
+	
+}
+h3{
+	color: white;
+}
+
+html{
+	height: 100%;
+	/*Stops the image from resizing all the time when you change the size of the window*/
+}
+
+hr{
+	border-top: 2px solid white;
+	width: 60%;
+}
+

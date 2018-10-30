@@ -1,0 +1,12 @@
+/*p {
+  /* The "color" property defines the text color, in this case yellow. */
+/*  color: yellow;
+  font-family: Georgia;
+  /* The "background-color" property defines the background color, in this case black. */
+ /* background-color: black;
+}
+*/
+body{
+	color: green;
+	background-image: url("");
+}

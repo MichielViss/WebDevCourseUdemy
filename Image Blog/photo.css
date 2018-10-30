@@ -1,0 +1,82 @@
+
+h1{
+	margin: 0px;
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Notable', sans-serif;
+	color: rgba(255,69,0,0.6);
+	border-bottom: 3px solid #f1f1f1;
+}	
+
+.container1:hover .image{  
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); 
+	transform: scale(1.1);
+}
+.container2:hover .image{
+	/*opacity: 0.3;*/
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); 
+	transform: scale(1.1)
+}
+
+.container3:hover .image{
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); 
+	transform: scale(1.1)
+}
+
+.container4:hover .image{
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); 
+	transform: scale(1.1)
+}
+
+.container5:hover .image{
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); 
+	transform: scale(1.1)
+} 
+
+.container6:hover .image{
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); ;
+	transform: scale(1.1)
+}
+.container7:hover .image{
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); 
+	transform: scale(1.1)
+} 
+
+.container8:hover .image{
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); 
+	transform: scale(1.1)
+}
+.container9:hover .image{
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4); 
+	transform: scale(1.1)
+}
+img{
+	float: left;
+	margin: 1.66%;
+	width: 30%;
+	border-radius: 8px;
+}
+
+.row1{
+	height: 630px;
+	background-color:rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.row2{
+	height: 630px;
+	background-color:rgba(0,0,0,0.5);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.row3{
+	height: 630px;
+	background-color:rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+html{
+	background-image: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&h=1903&w=2025.47");  
+}

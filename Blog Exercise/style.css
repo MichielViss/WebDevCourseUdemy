@@ -1,0 +1,43 @@
+body{
+	margin-top: 10px;
+	margin-right: 20%;
+	margin-left: 20%; 
+	text-align: justify;
+
+}
+
+.main1{
+margin:0 auto;
+max-width:940px;
+width:100% ;	
+border: 20px solid grey;
+}
+
+p{	
+	margin: 10px;
+	font-family: 'Playfair Display', serif;
+}
+
+h2{
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+#First{
+	margin-left: 10px;
+	color: green;
+	border-left: 4px solid grey; 
+	padding-left: 10px;
+}
+
+hr{
+	border-color: grey; 
+	margin: 10px;
+	border-style: solid;
+
+}
+
+.date{
+	color: blue;
+	text-transform: uppercase;
+}

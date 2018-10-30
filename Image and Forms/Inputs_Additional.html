@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+
+<p>Which pet do you prefer</p>
+
+<form>    
+	<!-- how to make your radio button single select option alone (no multiple options). Give them the same name so they are part of the same group thus it is not possible to have both options selected, in the example below the sname is petChoice -->
+
+	<label for "dogs">Dogs: </label>     
+	<input name="petChoice" id="dogs" type = "radio" value = "DOGS">   
+	<!-- the value parameter of the input element is important when selecting the radio butto, this defines which radio button is selected, thus when the submit button is selected the webpage will store which radio button is selected -->
+	<label for "cats">Cats: </label>    
+	<input name = "petChoice" id="casts" type = "radio" value ="CATS">
+
+<!-- Drop down lists are specified using tags "<select>" -->
+
+	<p>What is you current mood?</p>
+	<select name = "mood">
+		<!-- each option tage you enter within the select structure will enter a new option from which to choose on the drop down -->
+		<option value = "happy">:)</option> 
+		<!-- By adding the value attribute to the option tag you then pass the value of the values specified here as opposed to the actaul value of the drop down list option itself -->
+		<option value="Indifferent">:|</option>
+		<option value="Sad">:(</option>	
+		<!-- therefore when one of the emoji faces are selected from the drop down list, the value parsed when submitting the entry is that which is specified in quotation marks, not the emoji itself -->
+	</select>
+	<p>
+		Enter the text you want in the textbox below
+	</p>
+
+	<textarea value="inputText" name ="paragraph"	 rows="10" cols="10"></textarea>
+	<button>Go!</button>
+</form>
+
+<p>EPMD it is your world premier! I got paragraphs that will make you laugh! Faster than the joint you just had! Why you crying making me sad just glad the recipient of this award goes to mwah, the number one west side superstar! </p>
+</body>
+</html>
